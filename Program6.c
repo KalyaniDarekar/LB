@@ -31,14 +31,14 @@ END
 //Step 4 :write the program
 //
 /////////////////////////////////////////////////////////////////
-
+//do not write logic in main fuction write it in helper fun 
 #include <stdio.h>
 
 int Addition(int iNO1, int iNO2)
 {
     int iAns = 0;
 
-    iAns = iNO1 + iNO2;
+    iAns = iNO1 + iNO2;//busines logic 
 
     return iAns;
 }

@@ -33,12 +33,12 @@ END
 /////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-
+//global variable use hear . public so its consider as bad programming.
 int main()
-{
+{  //uninitalized local variable contaion garbage collection
     int iValue1  , iValue2 , iResult ;
      printf("Enter First Number : \n");
-     scanf("%d",&iValue1); //& address operator
+     scanf("%d",&iValue1); //& address operator  // acceot from user - scanf 
 
       printf("Enter Second Number : \n");
      scanf("%d",&iValue2); //& address operator

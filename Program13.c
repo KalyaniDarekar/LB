@@ -18,10 +18,18 @@ int main()
     int iValue1=0 ,iValue2=0, iresult=0;
 
     printf("enter first number : \n");
-    scanf("%d",&iValue1);
+    if(scanf("%d",&iValue1) != 1)
+    {
+          fprintf(stderr, "Unable to proceed as Input is Invalid\n");
+          return EXIT_FAILURE;
+    };
 
     printf("enter second number : \n");
-    scanf("%d",&iValue2);
+   if(scanf("%d",&iValue2) != 1)
+    {
+           fprintf(stderr, "Unable to proceed as Input is Invalid\n");
+          return EXIT_FAILURE;
+    };
 
     iresult = Addtion(iValue1,iValue2) ;   
 

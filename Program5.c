@@ -36,7 +36,7 @@ END
 
 int main()
 {
-    int iValue1=0 , iValue2=0 , iResult=0 ;
+    int iValue1=0 , iValue2=0 , iResult=0 ;//initalized value  
      printf("Enter First Number : \n");
      scanf("%d",&iValue1); //& address operator
 
