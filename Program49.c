@@ -29,7 +29,7 @@ scanf("%d",&iValue1);
 printf("Enter second number: \n");
 scanf("%d",&iValue2);
 printf("Enter third number: \n");
-scanf("%d",&);
+scanf("%d",&iValue3);
 
  iResult =Minimum(iValue1,iValue2,iValue3);
  printf("Minimum number is :%d\n",iResult);
