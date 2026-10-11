@@ -34,7 +34,7 @@ scanf("%d",&iValue2);
 printf("Enter third number: \n");
 scanf("%d",&iValue3);
 printf("Enter fourth number: \n");
-scanf("%d",&iValue4);
+scanf("%d",&);
 
  iResult =Minimum(iValue1,iValue2,iValue3,iValue4);
  printf("Minimum number is :%d\n",iResult);
