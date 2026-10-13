@@ -1,10 +1,11 @@
-class Addition {
+class EvenOdd {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
+        int num = 15;
 
-        int sum = a + b;
-
-        System.out.println("Sum = " + sum);
+        if (num % 2 == 0) {
+            System.out.println("Even Number");
+        } else {
+            System.out.println("Odd Number");
+        }
     }
 }
