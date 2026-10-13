@@ -1,11 +1,12 @@
-class EvenOdd {
+class Largest {
     public static void main(String[] args) {
-        int num = 15;
+        int a = 25;
+        int b = 40;
 
-        if (num % 2 == 0) {
-            System.out.println("Even Number");
+        if (a > b) {
+            System.out.println("Largest = " + a);
         } else {
-            System.out.println("Odd Number");
+            System.out.println("Largest = " + b);
         }
     }
 }
