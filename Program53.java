@@ -1,12 +1,14 @@
-class Factorial {
+class Swap {
     public static void main(String[] args) {
-        int num = 5;
-        int fact = 1;
+        int a = 10;
+        int b = 20;
+        int temp;
 
-        for (int i = 1; i <= num; i++) {
-            fact = fact * i;
-        }
+        temp = a;
+        a = b;
+        b = temp;
 
-        System.out.println("Factorial = " + fact);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
