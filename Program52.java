@@ -1,12 +1,7 @@
-class Largest {
+class PrintNumbers {
     public static void main(String[] args) {
-        int a = 25;
-        int b = 40;
-
-        if (a > b) {
-            System.out.println("Largest = " + a);
-        } else {
-            System.out.println("Largest = " + b);
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
         }
     }
 }
