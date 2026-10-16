@@ -19,14 +19,16 @@ class Iteration
 {
 public void Display(int iNo)
     {
-    int iCnt = 0;
-    
-    for(iCnt = iNo; iCnt >= 1; iCnt--)
+    int iCnt = 0;  //initalization
+    iCnt = 1;  //starting
+    // Head checking
+    while( iCnt <= iNo)
     {
         System.out.println("-------------");
         System.out.println(iCnt + " Jay Ganesh...");
         //printf("%d Jay Ganesh...\n",iCnt)
         System.out.println("-------------");
+         iCnt++;
     }
    }
 }
