@@ -4,23 +4,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void Display(int iNo)
+ int Summation(int iNo)
 {
     int iCnt = 0;
+    int iSum = 0;
+
     // iCnt++ = iCnt = iCnt +1;
-    for (iCnt = 1; iCnt <= iNo; iCnt+=2)
+    for (iCnt = 1; iCnt <= iNo; iCnt++)
     {
-        printf("%d\t",iCnt);
+        iSum = iSum + iCnt;
+    
     }
    
-    printf("\n");
+    return iSum;
 }
 int main()
 {
     int iValue = 0;
+    int iRet = 0;
+
     printf("enter the frequency : \n");
     scanf("%d",&iValue);
-    Display(iValue);
+   iRet = Summation(iValue);
+   printf("Summation is : %d\n",iRet);
     
     return EXIT_SUCCESS;
 }
