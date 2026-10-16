@@ -13,10 +13,11 @@ class Iteration
 {
 public void Display()
     {
-    System.out.println("Jay Ganesh...");
-    System.out.println("Jay Ganesh...");
-    System.out.println("Jay Ganesh...");
-    System.out.println("Jay Ganesh...");
-    
+    int iCnt = 0;
+    for (iCnt = 1; iCnt<=4; iCnt++)
+    {
+        System.out.println("Jay Ganesh...");
+
+    }
    }
 }
