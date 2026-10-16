@@ -1,32 +1,22 @@
-import java.util.Scanner;
 class Program63
 {
-     public static void main (String A[])
+    
+    public static void main (String A[])
     {
-        
-       Scanner scanner = new Scanner(System.in);
-       int iValue = 0;
         Iteration iteration = new Iteration();
 
-        System.out.println("Enter The Freuency :");
-        iValue = scanner.nextInt();
-
-        iteration.Display(iValue);
+        iteration.Display();
     }
 
 }
 class Iteration
 {
-public void Display(int iNo)
+public void Display()
     {
     int iCnt = 0;
-    
-    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    for(iCnt = 6; iCnt <= 6; iCnt--)  // Infinite Loop
     {
-        System.out.println("-------------");
-        System.out.println(iCnt + " Jay Ganesh...");
-        //printf("%d Jay Ganesh...\n",iCnt)
-        System.out.println("-------------");
+        System.out.println("Jay Ganesh...");
     }
    }
 }
