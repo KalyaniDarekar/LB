@@ -20,11 +20,11 @@ class Iteration
 public void Display(int iNo)
     {
     int iCnt = 0;
-    //Input filter 
-    if(iNo <= 0)
+    //Input Updater
+    if(iNo <0)
     {
-        System.out.println("Invalid Input");
-        return ;
+       iNo = -iNo;   
+        
     }
     for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
