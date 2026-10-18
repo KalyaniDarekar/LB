@@ -1,7 +1,7 @@
  #include <stdio.h>  //type def 
 #include <stdlib.h>
 
-typedef unsigned long  long ULONG;
+typedef unsigned long long ULONG;  // add this in .h file 
 
 ULONG Factorial(int iNo)
 {
