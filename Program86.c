@@ -4,15 +4,11 @@
 ------------------------------------------              
  result1       result2     final result
  ----------------------------------------
-  True          True          true
-  True          False         true
-  False         True          true  // short circuit
-  False         False         False // short circuit
+  True          True          true // short circuit
+  True          False         true  // short circuit
+  False         True          true  
+  False         False         False 
  ----------------------------------------
-
-
-
-
 */
 
 
