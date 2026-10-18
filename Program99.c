@@ -1,12 +1,18 @@
  #include <stdio.h>
 #include <stdlib.h>
 
-void Display(int iNo)
+void DisplayFactors(int iNo)
 {
   int iCnt = 0;
-  for(iCnt = 1 ; iCnt <= iNo; iCnt++)
+  printf("factors of %d are : \n",iNo);
+  
+  for(iCnt = 1 ; iCnt <= iNo;  iCnt++)
   {
-    printf("%d\n",iCnt);
+    if((iNo % iCnt) ==0)
+    {
+printf("%d\n",iCnt);
+    }
+    
   }
 }
 
@@ -17,7 +23,7 @@ int main()
   printf("Enter number:\n");
   scanf("%d",&iValue);
 
-  Display(iValue);
+  DisplayFactors(iValue);
 
     return EXIT_SUCCESS;
 }
