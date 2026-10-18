@@ -5,7 +5,7 @@ void DisplayFactors(int iNo)
 {
   int iCnt = 0;
   printf("factors of %d are : \n",iNo);
-  
+
   for(iCnt = 1 ; iCnt <= iNo;  iCnt++)
   {
     if((iNo % iCnt) ==0)
@@ -27,3 +27,4 @@ int main()
 
     return EXIT_SUCCESS;
 }
+// time complexity : O(n)
