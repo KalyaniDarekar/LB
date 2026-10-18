@@ -1,10 +1,10 @@
  #include <stdio.h>  
 #include <stdlib.h>
 
-long long Factorial(int iNo)
+unsigned long  long Factorial(int iNo)
 {
   int iCnt = 0;
-  long long ifact = 0;
+  unsigned long long ifact = 0;
   
   for(iCnt = 1 ,ifact = 1 ; iCnt <= iNo; iCnt++)
   {
@@ -16,7 +16,7 @@ long long Factorial(int iNo)
 int main()
 {
   int iValue = 0 ;
-  long long iRet = 0;
+  unsigned long long iRet = 0;
 
   printf("Enter number:\n");
   scanf("%lld",&iValue);
