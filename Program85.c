@@ -1,9 +1,28 @@
+/*
+------------------------------------------
+               Operation  &&
+------------------------------------------              
+ result1       result2     final result
+ ----------------------------------------
+  True          True          true
+  True          False         False
+  False         True          False  // short circuit
+  False         False         False // short circuit
+ ----------------------------------------
+
+
+
+
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
 void CheckDivisible(int iNo)
 {
-  if(((iNo%5) ==0) && ((iNo%3)==0))
+  if(((iNo%5) ==0) && ((iNo%3)==0))  // if input is 8 then short circuit evaluation gets
   {
     printf("Number is divisible by 3 and 5");
   }
