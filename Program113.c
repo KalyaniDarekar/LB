@@ -6,21 +6,14 @@ bool CheckPrime( int iNo)
   {
      int iCnt = 0;
      bool bFlag = true;
-     for( iCnt =2;iCnt <= iNo/2; iCnt++ )  // no 2 is used for prime condition
+     for( iCnt =2;iCnt <= iNo/2; iCnt++ )  
      if((iNo%iCnt) == 0)
       {
-        break;   // stop if the number is not prime
+        bFlag= false;   
       }
 
-      if (iCnt==(iNo/2) + 1)
-     {
-         return true;
-     }
-     else 
-     {
-      return false;
-     }
-}
+      return bFlag;
+    }
 
 
 int main(void)  // no input take -void
