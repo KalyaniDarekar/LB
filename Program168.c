@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-int CountDigits(int iNo)
+float AverageDisplay(int iNo)
 {
  int iDigit = 0;
  int iSum = 0;
@@ -16,11 +16,11 @@ int CountDigits(int iNo)
     iDigit = iNo%10;
     iSum = iSum +iDigit;
     iCnt ++;
- //-----------------logic----------------------------------------   
+ //----------------- Business logic----------------------------------------   
     iNo = iNo/10;
    
    }
-      
+
 return iSum/iCnt;
 }
 
@@ -32,7 +32,7 @@ int iValue = 0;
 float fRet = 0.0f;
 printf("Enter value:\n");
 scanf("%d",&iValue);
-fRet = CountDigits(iValue);
+fRet = AverageDisplay(iValue);
 printf("Average:%f\n",fRet);
 return EXIT_SUCCESS;
 
