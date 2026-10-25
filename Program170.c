@@ -19,7 +19,7 @@ while (iNo != 0)
    iCount++;
    iNo = iNo /10;
 }
-fAvg = iSum/iCount;
+fAvg = (float)iSum/(float)iCount;
 return fAvg;     // need of type casting
 }
  int main ()
