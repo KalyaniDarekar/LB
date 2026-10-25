@@ -15,7 +15,7 @@ bool CheckPalindrome(int iNo)
       iNo = iNo/10;
    
    }
-   if (iRev == iNo) // issue
+   if (iRev == iTemp) // issue solved
    {
       return true;
    
