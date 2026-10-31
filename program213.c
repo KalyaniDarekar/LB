@@ -2,13 +2,13 @@
 iRow = 4
 iCol = 4
 
-#       #       #       #
+1       1       1       1
 
-#       #       #       #
+2       2       2       2
 
-#       #       #       #
+3       3       3       3
 
-#       #       #       #
+4       4       4       4
 
 */
 
@@ -22,7 +22,7 @@ void Pattern(int iRow,int iCol)
       {
            for (j = 1; j<=iCol; j++)
              {
-                printf("#\t");
+                printf("%d\t",i);
         
              }  
       printf("\n\n");
