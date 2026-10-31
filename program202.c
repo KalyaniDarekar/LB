@@ -4,25 +4,25 @@
 void Pattern(int iNo)
 {
     int iCnt = 0;
+    char ch = '\0';
+
+    ch = 'A';
+
     for(iCnt = 1;iCnt <= iNo; iCnt++)
     {
-
+        printf("%c\n",ch);
+        ch++;
     }
 
-   
+   printf("\n");
     
 }
 
 int main()
 {
     int iValue = 0;
-    printf("Enter a char:")
+    printf("Enter value:");
     scanf("%d",&iValue  );
-    char ch = '\0';
-    for(ch='A';ch<='D';ch++)
-    {
-        printf("%c\n",ch);
-    }
-
+    Pattern(iValue);
     return EXIT_SUCCESS;
 }
