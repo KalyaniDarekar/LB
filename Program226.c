@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+    char Arr[10] = {'G','a','n','e','s','h','\0'}; // explicitely specified array size
+    printf("%s\n",Arr);
+    printf("Size of array is :%d\n",sizeof(Arr));
+    return EXIT_SUCCESS;
+}

@@ -22,8 +22,15 @@ void Pattern(int iRow,int iCol)
         
            for (j = 1,ch = 'A'; j<=iCol; j++,ch++)
              {
-              
-                printf("%c\t",ch);
+              if(i == j)   // Digonal
+              {
+                 printf("$\t");
+              }
+              else
+              {
+                printf("*\t");
+              }
+                
               }
                 
         printf("\n\n");
