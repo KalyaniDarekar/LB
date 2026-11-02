@@ -32,7 +32,7 @@
  {
     
     
-   Arithmetic aobj1(10.5,11.5);
+   Arithmetic aobj1(10.5,11.5); // error
      
     cout<<aobj1.Addition()<<"\n";
     cout<<aobj1.Substraction()<<"\n";
