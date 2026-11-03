@@ -3,10 +3,10 @@
 
 int main ()
 {
-    int No1 = 14;
-    int No2 = 11;
+    int No = 14;
     int Ans = 0;
-    Ans = No1 ^ No2;
+    
+    Ans = No << 3;
     printf(" %d\n",Ans);
     
     return EXIT_SUCCESS;
