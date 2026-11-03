@@ -5,8 +5,8 @@ int main ()
 {
     int No = 14;
     int Ans = 0;
-    
-    Ans = No << 3;
+
+    Ans = No << 3;   // formula No*2^3 = No*8 = 14*8 = 112
     printf(" %d\n",Ans);
     
     return EXIT_SUCCESS;
