@@ -12,9 +12,9 @@ void Display(int Arr[],int iLength)  // addres , value
 }
 int main()
 {
-int Brr[7] = {10,20,30,40,50,60,70};
+int Brr[5] = {10,20,30,40,50};
 
-Display(Brr,7) ;  //Display(100,7);
+Display(Brr,5) ;  
 
 
     return EXIT_SUCCESS;
