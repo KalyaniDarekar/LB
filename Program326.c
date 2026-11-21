@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include<stdlib.h>
-
+void Display(int Arr[],int iLength)  // addres , value
+{
+    int iCnt = 0;
+    printf("Elements of the array are: \n");
+    for (iCnt =0 ; iCnt<iLength; iCnt++ )
+    {
+      printf("%d\n",Arr[iCnt]);
+    }
+ 
+}
 int main()
 {
 int *ptr = NULL;
@@ -15,15 +24,9 @@ for(iCnt = 0 ; iCnt<iSize; iCnt++)
 {
 scanf("%d",&ptr[iCnt]);
 }
-printf("elements of the array are : \n"); 
-for(iCnt = 0 ; iCnt<iSize; iCnt++)
-{
-printf("%d\n",&ptr[iCnt]);
-}
 
-
-
- // free the memory 
+Display( ptr ,iSize);
+ //  step 3 - free the memory 
  free(ptr);
 
     return EXIT_SUCCESS;

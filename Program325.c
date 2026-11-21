@@ -18,7 +18,7 @@ scanf("%d",&ptr[iCnt]);
 printf("elements of the array are : \n"); 
 for(iCnt = 0 ; iCnt<iSize; iCnt++)
 {
-printf("%d\n",&ptr[iCnt]);
+printf("%d\n",ptr[iCnt]);
 }
 
 
