@@ -31,15 +31,44 @@ for(iCnt= 0; iCnt<Arr.length;iCnt++)
  System.out.println(Arr[iCnt]);
 }
 }
+public int Summation()
+{
+int iCnt = 0, iSum = 0;
+
+for(iCnt= 0; iCnt<Arr.length;iCnt++)
+{
+  iSum = iSum+Arr[iCnt];
 
 }
-class Program356
+return  iSum;
+}
+public float Average ()
+{
+int iCnt = 0, iSum = 0;
+
+for(iCnt= 0; iCnt<Arr.length;iCnt++)
+{
+  iSum = iSum+Arr[iCnt];
+
+}
+return (float) iSum/ (float)Arr.length;
+}
+
+}
+class Program357
 {
   public static void main (String A[])
   {
+    int iRet = 0;
+    float fRet = 0.0f ;
     Number nobj1 = new Number(5);
     nobj1.Accept();
     nobj1.Display();
+    iRet = nobj1.Summation();
+    System.out.println("Addition is :" +iRet);
+
+    fRet = nobj1.Average();
+    System.out.println("Average is :" +fRet);
 
     nobj1 = null;
     System.gc();
