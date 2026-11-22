@@ -1,6 +1,18 @@
 import java.util.Scanner;
 class Program345
 {
+  
+  public static int Summation(int Arr[])
+  {
+  int iCnt = 0 ,iSum = 0;
+  
+  for(iCnt = 0; iCnt< Arr.length; iCnt++)
+  {
+    iSum = iSum + Arr[iCnt];
+  }
+  return iSum;
+  }
+  
   public static float Average(int Arr[])
   {
      int iCnt = 0 ,iSum = 0;
@@ -12,17 +24,6 @@ class Program345
     return((float)iSum/(float)Arr.length);
  
 }
-  }
-  public static int Summation(int Arr[])
-  {
-  int iCnt = 0 ,iSum = 0;
-  
-  for(iCnt = 0; iCnt< Arr.length; iCnt++)
-  {
-    iSum = iSum + Arr[iCnt];
-  }
-  return iSum;
-  }
   public static void main(String A[])
   {
 
@@ -68,3 +69,4 @@ class Program345
    System.gc();
 
   }
+}
