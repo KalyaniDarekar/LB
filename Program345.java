@@ -1,11 +1,21 @@
 import java.util.Scanner;
-class Program344
+class Program345
 {
+  public static int Summation(int Arr[])
+  {
+  int iCnt = 0 ,iSum = 0;
+
+  for(iCnt = 0; iCnt< Arr.length; iCnt++)
+  {
+    iSum = iSum + Arr[iCnt];
+  }
+  return iSum;
+  }
   public static void main(String A[])
   {
 
 
-    int iCnt =0 ,iSize = 0;
+    int iCnt =0 ,iSize = 0 , iRet = 0;
     int ptr [] =null;   // int *ptr = NULL; in c and cpp
     Scanner scanner = null;
      scanner = new Scanner(System.in);
@@ -32,7 +42,8 @@ class Program344
        System.out.println(ptr[iCnt]);
     }
 
-    
+    iRet = Summation(ptr);
+    System.out.println("Addition is :" +iRet);
    // step3 - dealoocate the memory 
    scanner = null;
    ptr = null;
