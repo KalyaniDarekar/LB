@@ -16,6 +16,7 @@ for (iCnt= 0; iCnt< iLength ; iCnt++)
     break;
   }
 }
+return false;
 
 }
 int main()

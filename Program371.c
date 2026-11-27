@@ -12,10 +12,12 @@ for (iCnt= 0; iCnt< iLength ; iCnt++)
   if (Arr[iCnt]== iNo)
   {
     bFlag = true;
+  
   }
 }
  return bFlag ;
 }
+//time complexity : 0(N)
 int main()
 {
 

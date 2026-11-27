@@ -15,6 +15,7 @@ for (iCnt= 0; iCnt< iLength ; iCnt++)
     iCount++;
   }
 }
+return false;
 
 }
 int main()
