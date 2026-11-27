@@ -7,14 +7,14 @@ bool SearchElement(int Arr[] , int iLength,int iNo)
 int iCnt = 0;
 bool bFlag = false;
 
-for (iCnt= 0; iCnt< iLength ; iCnt++)
+while (iCnt < iLength)
 {
-  if (Arr[iCnt]== iNo)
+ if (Arr[iCnt]== iNo)
   {
     bFlag = true;
     break;   //early exit
-  
   }
+   iCnt++;
 }
  return bFlag ;
 }
