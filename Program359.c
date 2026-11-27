@@ -11,7 +11,7 @@ printf("Enter number of elements :\n");
 scanf("%d",&iSize);
 
 ptr = (int *) malloc (iSize *sizeof(int));
-if(ptr == NULL) // validation 
+if(ptr = NULL) // used assign operator which generate issue 
 {
     printf("Error : Unable to allocate the memory \n");
     return EXIT_FAILURE;
