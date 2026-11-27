@@ -10,15 +10,10 @@ int iCount= 0;
 
 for (iCnt= 0; iCnt< iLength ; iCnt++)
 {
-   if(iCount == iNo)
-   {
-    return true;
-   }
-   else 
-   {
-return false;
-   }
-
+  if (Arr[iCnt]== iNo)
+  {
+    iCount++;
+  }
 }
 
 }
