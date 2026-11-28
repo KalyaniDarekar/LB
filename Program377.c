@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Minumum(int Arr[] , int iLength)
+int Minimum(int Arr[] , int iLength)
 {
 int iCnt = 0;
-int iMin= 0;
+int iMin = -1;
 
 
 for (iCnt= 0; iCnt< iLength ; iCnt++)
 {
-   if(Arr[iCnt] == iMin)
-   {
-   if(Arr[iCnt]<iMin)
+  
+   if(Arr[iCnt]< iMin)
    {
          iMin = Arr[iCnt];
 
@@ -21,7 +20,7 @@ for (iCnt= 0; iCnt< iLength ; iCnt++)
 
 return iMin;
 
-
+}
 int main()
 {
 
@@ -46,8 +45,8 @@ scanf("%d",&ptr[iCnt]);
 }
 
 //function call
- iRet = Maximum(ptr ,iSize);
-printf("Maximum element is  : %d\n ",iRet);
+ iRet = Minimum(ptr ,iSize);
+printf("Minimum element is  : %d\n ",iRet);
 
 
 free(ptr);
