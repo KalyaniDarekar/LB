@@ -4,7 +4,7 @@
 int Minimum(int Arr[] , int iLength)
 {
 int iCnt = 0;
-int iMin = -1;
+int iMin = Arr[0];
 
 
 for (iCnt= 0; iCnt< iLength ; iCnt++)
